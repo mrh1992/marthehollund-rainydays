@@ -1,0 +1,18 @@
+body {
+  font-family: helvetica, Verdana, sans-serif;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #0b3a40;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #7b4026;
+}
