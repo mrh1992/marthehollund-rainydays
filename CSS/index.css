@@ -1,0 +1,6 @@
+main h1 {
+  background-image: url("../images/Edit-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}

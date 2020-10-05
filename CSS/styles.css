@@ -17,3 +17,7 @@ nav a:hover {
   text-decoration: underline;
   color: #7b4026;
 }
+
+.logo {
+  max-width: 200px;
+}
