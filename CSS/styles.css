@@ -21,3 +21,7 @@ nav a:hover {
 .logo {
   max-width: 200px;
 }
+
+.form__input {
+  display: block;
+}
