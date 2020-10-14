@@ -25,3 +25,7 @@ nav a:hover {
 .form__input {
   display: block;
 }
+
+.menu {
+  color: #000;
+}
