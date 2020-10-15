@@ -26,6 +26,10 @@ nav a:hover {
   display: block;
 }
 
-.menu {
-  color: #000;
+.fa-shopping-bag {
+  color: #0b3a40;
+}
+
+.fa-search {
+  color: #0b3a40;
 }

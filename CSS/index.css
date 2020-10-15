@@ -4,3 +4,7 @@ main h1 {
   background-size: cover;
   min-height: 800px;
 }
+
+h1 {
+  color: #ffff;
+}
