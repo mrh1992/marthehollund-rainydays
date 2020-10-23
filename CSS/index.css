@@ -8,3 +8,22 @@ main h1 {
 h1 {
   color: #ffff;
 }
+
+.productimage-flex {
+}
+
+.productimage {
+  display: inline-flex;
+  max-width: 250px;
+  padding: 20px;
+}
+
+.peopleimage-flex {
+  margin: 0px;
+}
+
+.peoplepicture {
+  display: inline-flex;
+  max-width: 300px;
+  padding: 10px;
+}

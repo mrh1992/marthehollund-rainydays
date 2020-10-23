@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav aria-labelledby="info-navigation">
         <ul class="nav-list">
           <li><a href="index.html" class="nav-list">Home</a></li>
           <li><a href="about.html" class="nav-list">About</a></li>
@@ -28,9 +28,13 @@
         alt="Logo for rainydays"
         class="logo"
       />
-      <nav>
+      <nav aria-labelledby="main-navigation">
         <ul class="nav-product">
-          <li><a href="products/men.html" class="nav-product">MEN</a></li>
+          <li>
+            <a href="products/men.html" class="nav-product" id="main-navigation"
+              >MEN</a
+            >
+          </li>
           <li><a href="products/women.html" class="nav-product">WOMEN</a></li>
           <li><a href="products/news.html" class="nav-product">NEWS</a></li>
           <span style="font-size: 3em">
@@ -43,6 +47,7 @@
     <main>
       <h1>SEE OUR COLLECTION</h1>
       <h2>NEWS</h2>
+      <img class="productimage-flex" />
       <img src="images/product.jpg" alt="productimage" class="productimage" />
       <img src="images/product.jpg" alt="productimage" class="productimage" />
       <img src="images/product.jpg" alt="productimage" class="productimage" />
@@ -51,6 +56,27 @@
       <p>$ 500</p>
       <h2>SHARE YOUR PHOTOS WITH US</h2>
       <h3>TAG US #RAINYDAYS, FOR A CHANCE TO GET FEATURED</h3>
+      <img class="peoplepicture-flex" />
+      <img
+        src="images/edit3.jpg"
+        alt="human in hammock"
+        class="peoplepicture"
+      />
+      <img
+        src="images/edit4.jpg"
+        alt="human in raincoat in the rain"
+        class="peoplepicture"
+      />
+      <img
+        src="images/edit5.jpg"
+        alt="campfire in nature"
+        class="peoplepicture"
+      />
+      <img
+        src="images/edit6.jpg"
+        alt="forrest with orange autumn colors"
+        class="peoplepicture"
+      />
     </main>
     <footer>Copyright &copy;</footer>
   </body>

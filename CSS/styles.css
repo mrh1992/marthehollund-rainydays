@@ -14,16 +14,10 @@ body {
   display: block;
 }
 
-.fa-shopping-bag {
-  color: #0b3a40;
-}
-
+.fa-shopping-bag,
 .fa-search {
   color: #0b3a40;
-}
-
-.productimage {
-  max-width: 250px;
+  margin: 10px;
 }
 
 .nav-product {
