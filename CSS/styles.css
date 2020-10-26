@@ -4,10 +4,16 @@ body {
   margin: 0px;
 }
 
+.logo,
+.nav-product {
+  display: inline-block;
+}
+
 .logo {
   max-width: 200px;
   display: inline-block;
   margin: 10px;
+  float: left;
 }
 
 .form__input {
@@ -18,12 +24,15 @@ body {
 .fa-search {
   color: #0b3a40;
   margin: 10px;
+  font-size: 3em;
+  float: right;
 }
 
 .nav-product {
   color: #0b3a40;
   text-decoration: none;
   padding: 10px;
+  float: middle;
 }
 
 .nav-product li {
@@ -32,10 +41,6 @@ body {
 
 .nav-product:hover {
   color: #7b4026;
-}
-
-.floated {
-  float: right;
 }
 
 .nav-list {
