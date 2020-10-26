@@ -3,11 +3,13 @@ main h1 {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 800px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 h1 {
   color: #ffff;
+  text-align: center;
+  padding: 100px;
 }
 
 .productimage {
