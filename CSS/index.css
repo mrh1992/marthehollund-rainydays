@@ -9,9 +9,6 @@ h1 {
   color: #ffff;
 }
 
-.productimage-flex {
-}
-
 .productimage {
   display: inline-flex;
   max-width: 250px;
