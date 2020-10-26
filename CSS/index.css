@@ -22,3 +22,39 @@ h2,
 h3 {
   margin: 10px;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-1 {
+  max-width: 300px;
+  text-align: center;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+}
+
+.card-1 button {
+  border: none;
+  outline: 0px;
+  padding: 10px;
+  color: #ffff;
+  background-color: #0b3a40;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-left: 35px;
+}
+
+.productimage {
+  max-width: 250px;
+  margin-left: 35px;
+}
