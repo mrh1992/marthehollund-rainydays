@@ -16,11 +16,13 @@ h1 {
   display: inline-flex;
   max-width: 300px;
   padding: 10px;
+  margin-left: 25px;
 }
 
 h2,
 h3 {
-  margin: 10px;
+  margin-left: 50px;
+  margin-bottom: 0px;
 }
 
 .container {
