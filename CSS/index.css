@@ -12,16 +12,6 @@ h1 {
   padding: 100px;
 }
 
-.productimage {
-  display: inline-flex;
-  max-width: 250px;
-  padding: 20px;
-}
-
-.peopleimage-flex {
-  margin: 0px;
-}
-
 .peoplepicture {
   display: inline-flex;
   max-width: 300px;
