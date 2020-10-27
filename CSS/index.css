@@ -32,6 +32,8 @@ h3 {
 
 .card-1 {
   max-width: 300px;
+  border: 2px;
+  border-color: #0000;
   text-align: center;
   margin-left: 40px;
   padding: 10px;
