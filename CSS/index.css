@@ -32,6 +32,10 @@
   margin: 10px;
 }
 
+.mainpic button:hover {
+  opacity: 0.9;
+}
+
 .button,
 .women {
   position: absolute;

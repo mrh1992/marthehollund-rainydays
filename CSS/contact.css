@@ -1,0 +1,42 @@
+.contactinformation {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contactpic {
+  max-width: 350px;
+  float: left;
+  margin: 20px;
+}
+
+.form__input {
+  display: block;
+}
+
+.legend {
+  outline: none;
+}
+
+section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+input[type="submit"] {
+  border: none;
+  outline: 0px;
+  padding: 10px;
+  color: #ffff;
+  background-color: #0b3a40;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  width: 20%;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+}

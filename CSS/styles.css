@@ -111,9 +111,6 @@ body {
 /* about */
 
 /* contact */
-.form__input {
-  display: block;
-}
 
 /* rainy days */
 
@@ -121,6 +118,4 @@ body {
 
 /* footer */
 
-.footer {
-  box-align: center;
-}
+/* productinfo */
