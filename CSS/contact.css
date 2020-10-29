@@ -1,5 +1,5 @@
 .contactinformation {
-  display: inline;
+  display: block;
 }
 
 h1 {
@@ -12,12 +12,19 @@ h1 {
   margin: 20px;
 }
 
-.form__input {
-  display: block;
+div.contactform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.legend {
-  outline: none;
+.form__input {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  border: none;
 }
 
 section::after {
@@ -26,9 +33,24 @@ section::after {
   display: table;
 }
 
+input[type="text"] {
+  outline: none;
+  width: 20%;
+}
+
+input[type="email"] {
+  outline: none;
+  width: 20%;
+}
+
+textarea {
+  outline: none;
+  width: 50%;
+}
+
 input[type="submit"] {
   border: none;
-  outline: 0px;
+  outline: none;
   padding: 10px;
   color: #ffff;
   background-color: #0b3a40;
