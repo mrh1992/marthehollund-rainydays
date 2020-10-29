@@ -107,6 +107,10 @@
   opacity: 0.7;
 }
 
+btn-xl:focus {
+  background-color: #0b3a40;
+}
+
 .addcart {
   border: none;
   outline: 0px;
@@ -128,4 +132,10 @@
 
 .description-head {
   font-weight: bold;
+}
+
+section::after {
+  content: " ";
+  clear: both;
+  display: table;
 }

@@ -1,0 +1,16 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  font-style: italic;
+  color: #7b4026;
+}
+
+.people-container {
+  display: inline-flex;
+  max-width: 300px;
+  padding: 10px;
+  margin-left: 20px;
+}

@@ -1,7 +1,7 @@
 .clothesimg {
   max-width: 500px;
   margin-left: 40px;
-  margin-right: 93px;
+  margin-right: 90px;
   float: left;
 }
 
@@ -14,4 +14,19 @@ h1 {
   margin-left: 40px;
   margin-right: 93px;
   float: left;
+}
+
+.about2 {
+  border: none;
+  outline: 0px;
+  padding: 10px;
+  color: #ffff;
+  background-color: #0b3a40;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  width: 20%;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-weight: bold;
 }
