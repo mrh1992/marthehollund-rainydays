@@ -1,13 +1,6 @@
 .productinformation {
+  margin-top: 150px;
   display: inline-block;
-}
-
-.realproduct {
-  max-height: 400px;
-  max-width: 300px;
-  overflow: hidden;
-  margin: 20px;
-  float: left;
 }
 
 .productsketch {
@@ -105,10 +98,6 @@
 
 .btn-xl:hover {
   opacity: 0.7;
-}
-
-btn-xl:focus {
-  background-color: #0b3a40;
 }
 
 .addcart {

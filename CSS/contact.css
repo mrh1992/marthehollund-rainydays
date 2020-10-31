@@ -6,6 +6,7 @@
 
 h1 {
   text-align: center;
+  margin-top: 150px;
 }
 
 .contactpic {
@@ -36,6 +37,12 @@ section::after {
   display: table;
 }
 
+.form__input {
+  outline: none;
+  width: 100%;
+}
+
+/*
 input[type="text"] {
   outline: none;
   width: 100%;
@@ -45,6 +52,7 @@ input[type="email"] {
   outline: none;
   width: 100%;
 }
+*/
 
 textarea {
   outline: none;
