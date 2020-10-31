@@ -159,11 +159,3 @@ nav ul {
 /* productinfo */
 
 /* checkout success*/
-
-.success-sign {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 300px;
-}
