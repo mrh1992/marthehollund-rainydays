@@ -11,8 +11,8 @@
     <link href="CSS/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav aria-labelledby="top navbar with black background">
+    <header style="display: flex; margin-top: 50px">
+      <nav aria-labelledby="top menu with info about shop">
         <div class="nav-list">
           <a href="checkout.html">Checkout</a>
           <a href="rainydays.html">#Rainydays</a>
@@ -22,32 +22,39 @@
           <a href="index.html">Home</a>
         </div>
       </nav>
-      <div class="main-2">
-        <p>space</p>
-      </div>
-      <section class="menu-container">
-        <a href="index.html">
-          <img
-            src="images/RainyDays_Logo.png"
-            alt="Logo for rainydays"
-            class="logo"
-        /></a>
-        <nav aria-labelledby="menu of products">
+      <a href="index.html"
+        ><img
+          src="images/RainyDays_Logo.png"
+          alt="Logo for rainydays"
+          class="logo"
+      /></a>
+      <nav class="menu-products-container" aria-labelledby="menu of products">
+        <ul>
           <div class="menu-products">
-            <a href="products/men.html">MEN</a>
-            <a href="products/women.html">WOMEN</a>
-            <a href="products/news.html">NEWS</a>
+            <li><a href="products/men.html">MEN</a></li>
+            <li><a href="products/women.html">WOMEN</a></li>
+            <li><a href="products/news.html">NEWS</a></li>
           </div>
           <div class="menu-icons">
-            <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
-            <a href="search.html"><i class="fas fa-search"></i></a>
-            <input type="text" placeholder="Search.." class="search" />
+            <div class="menu-icons-container">
+              <li>
+                <input
+                  type="text"
+                  placeholder="Search.."
+                  id="search"
+                  class="search"
+                />
+              </li>
+              <li>
+                <a href="search.html"><i class="fas fa-search"></i></a>
+              </li>
+              <li>
+                <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+              </li>
+            </div>
           </div>
-        </nav>
-      </section>
-      <div class="main-3">
-        <p>space</p>
-      </div>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>1. SHIPPING</h1>

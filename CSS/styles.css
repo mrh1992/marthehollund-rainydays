@@ -40,20 +40,21 @@ body {
   color: #7b4026;
 }
 
-.main-2 {
-  margin-top: 30px;
+/*menu products and icons*/
+.header {
+  display: flex;
+  margin-top: 50px;
 }
 
-/*menu products and icons*/
 .menu-products-container {
   max-height: 50px;
   display: block;
 }
 
 .menu-products {
-  margin: 25px auto;
+  margin: 55px auto;
   font-size: 42px;
-  padding-left: 10vw;
+  padding-left: 20px;
 }
 
 .menu-products a {
@@ -66,7 +67,8 @@ body {
 
 .menu-icons {
   margin-right: 25px;
-  margin-top: 25px;
+  margin-top: 55px;
+  margin-left: 15px;
 }
 
 .menu-icons a {
