@@ -17,6 +17,15 @@ h1 {
   margin-right: 50px;
 }
 
+.infocontact {
+  font-weight: bold;
+}
+
+.infocontact-2 {
+  font-style: italic;
+}
+
+/* Contact form */
 div.contactform {
   display: flex;
   align-items: center;
@@ -42,7 +51,7 @@ section::after {
   width: 100%;
 }
 
-/*
+
 input[type="text"] {
   outline: none;
   width: 100%;
@@ -52,7 +61,7 @@ input[type="email"] {
   outline: none;
   width: 100%;
 }
-*/
+
 
 textarea {
   outline: none;
@@ -72,12 +81,4 @@ input[type="submit"] {
   border-radius: 8px;
   margin-top: 10px;
   font-weight: bold;
-}
-
-.infocontact {
-  font-weight: bold;
-}
-
-.infocontact-2 {
-  font-style: italic;
 }
