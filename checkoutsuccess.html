@@ -7,13 +7,38 @@
     <link href="CSS/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <a href="index.html"
-        ><img
-          src="images/RainyDays_Logo.png"
-          alt="Logo for rainydays"
-          class="logo"
-      /></a>
-    </header>
+    <header style="display: flex;margin-top: 50px;">
+        <nav aria-labelledby="top menu with info about shop">
+          <div class="nav-list">
+            <a href="checkout.html">Checkout</a>
+            <a href="rainydays.html">#Rainydays</a>
+            <a href="storefinder.html">Store Finder</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="index.html">Home</a>
+          </div>
+        </nav>
+        <img
+        src="images/RainyDays_Logo.png"
+        alt="Logo for rainydays"
+        class="logo"
+      />
+        <nav class="menu-products-container" aria-labelledby="menu of products">
+          <ul>
+          <div class="menu-products">
+            <li><a href="products/men.html">MEN</a></li>
+            <li><a href="products/women.html">WOMEN</a></li>
+            <li><a href="products/news.html">NEWS</a></li>
+          </div>
+            <div class="menu-icons">
+              <div class="menu-icons-container">
+            <li><input type="text" placeholder="Search.." id="search" class="search"></li>
+            <li><a href="search.html"><i class="fas fa-search"></i></a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+          </div>
+            </div>
+          </ul>
+        </nav>
+      </header>
   </body>
 </html>
