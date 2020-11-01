@@ -1,6 +1,6 @@
 .productinformation {
   margin-top: 50px;
-  display: inline-block;
+  display: block;
 }
 
 .productsketch {
@@ -11,7 +11,7 @@
 }
 
 .btn-xs {
-  margin: 10px;
+  margin-right: 10px;
   border: none;
   outline: 0px;
   padding: 15px;

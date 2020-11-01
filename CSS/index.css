@@ -103,6 +103,7 @@ h3 {
 
 .productimage {
   max-width: 250px;
+  max-height: auto;
   margin-left: 35px;
 }
 
@@ -111,3 +112,7 @@ h3 {
   font-weight: 500;
   margin-top: 5px;
 }
+
+
+  
+
